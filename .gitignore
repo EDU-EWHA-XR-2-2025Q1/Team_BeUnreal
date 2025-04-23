@@ -74,9 +74,6 @@ crashlytics-build.properties
 ###################################
 .vscode/
 .idea/
-Standard Assets/
-StarterAssets/
-TextMesh Pro/
 .DS_Store
 ._.DS_Store
 **/.DS_Store
