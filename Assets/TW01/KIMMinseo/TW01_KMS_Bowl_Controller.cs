@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TW01_Bowl_Controller : MonoBehaviour
+public class TW01_KMS_Bowl_Controller : MonoBehaviour
 {
     public GameObject UI_Controller;
 
@@ -10,7 +10,7 @@ public class TW01_Bowl_Controller : MonoBehaviour
     {
         if (other.tag == "Item")
         {
-            UI_Controller.GetComponent<TW01_UI_Controller>().Display_PutCounts();
+            UI_Controller.GetComponent<TW01_KMS_UI_Controller>().Display_PutCounts();
             Destroy(other.gameObject);
         }
     }

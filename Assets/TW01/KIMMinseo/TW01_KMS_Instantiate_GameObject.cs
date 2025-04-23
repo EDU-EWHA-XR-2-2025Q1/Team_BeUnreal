@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TW01_Instantiate_GameObject : MonoBehaviour
+public class TW01_KMS_Instantiate_GameObject : MonoBehaviour
 {
 
     public GameObject Target;      

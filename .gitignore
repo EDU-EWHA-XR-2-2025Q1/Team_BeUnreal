@@ -74,7 +74,6 @@ crashlytics-build.properties
 ###################################
 .vscode/
 .idea/
-*.meta
 Standard Assets/
 StarterAssets/
 TextMesh Pro/

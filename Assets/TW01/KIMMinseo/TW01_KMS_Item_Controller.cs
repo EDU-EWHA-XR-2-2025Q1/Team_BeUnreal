@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TW01_Item_Controller : MonoBehaviour
+public class TW01_KMS_Item_Controller : MonoBehaviour
 {
     public GameObject PickController;   
     private void OnMouseDown()
     {
         PrintInfo();                  
-        PickController.GetComponent<TW01_Pick_Controller>().Add_Click(gameObject); // Step03
+        PickController.GetComponent<TW01_KMS_Pick_Controller>().Add_Click(gameObject); // Step03
     }
     void PrintInfo()
     {

@@ -6,9 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/TW01/StartScene.unity
-    guid: 9de91a2fc925d428a9ca7865be36eb08
+    path: Assets/TW01/TW01_StartScene.unity
+    guid: 6f8e1ec94ad034fb8b90cd3d3e39f0bc
   - enabled: 1
-    path: Assets/TW01/TW01_2276046_KMS/KMS_Pick_and_Put.unity
-    guid: 542c9513f9a454d98a5d4622560ed9cb
+    path: Assets/TW01/KIMMinseo/TW01_KMS_Pick_and_Put.unity
+    guid: 3d2184fa919bf4d96846e41c3aef7776
   m_configObjects: {}

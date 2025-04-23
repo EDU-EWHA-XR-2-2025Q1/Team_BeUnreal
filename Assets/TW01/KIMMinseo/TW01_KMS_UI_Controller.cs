@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class TW01_UI_Controller : MonoBehaviour
+public class TW01_KMS_UI_Controller : MonoBehaviour
 {
     public TMP_Text PickCounts;          
     public TMP_Text PutCounts;           

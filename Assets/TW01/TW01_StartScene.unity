@@ -473,8 +473,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: D08_Scene01_Controller, Assembly-CSharp
+      - m_Target: {fileID: 1140157311}
+        m_TargetAssemblyTypeName: Scene_Controller, Assembly-CSharp
         m_MethodName: OnClick_LoadScene
         m_Mode: 2
         m_Arguments:
@@ -606,8 +606,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: D08_Scene01_Controller, Assembly-CSharp
+      - m_Target: {fileID: 1140157311}
+        m_TargetAssemblyTypeName: Scene_Controller, Assembly-CSharp
         m_MethodName: OnClick_LoadScene
         m_Mode: 2
         m_Arguments:
@@ -838,7 +838,7 @@ MonoBehaviour:
         m_MethodName: OnClick_LoadScene
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: 542c9513f9a454d98a5d4622560ed9cb, type: 3}
+          m_ObjectArgument: {fileID: 102900000, guid: 3d2184fa919bf4d96846e41c3aef7776, type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -1285,7 +1285,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1140157310}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cbbc25e5a8ba04026b5034336b6ea5f1, type: 3}
+  m_Script: {fileID: 11500000, guid: d0f593eec8c1048eeab40c75787d12bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &1140157312
@@ -1520,8 +1520,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: D08_Scene01_Controller, Assembly-CSharp
+      - m_Target: {fileID: 1140157311}
+        m_TargetAssemblyTypeName: Scene_Controller, Assembly-CSharp
         m_MethodName: OnClick_LoadScene
         m_Mode: 2
         m_Arguments:
@@ -1653,8 +1653,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: D08_Scene01_Controller, Assembly-CSharp
+      - m_Target: {fileID: 1140157311}
+        m_TargetAssemblyTypeName: Scene_Controller, Assembly-CSharp
         m_MethodName: OnClick_LoadScene
         m_Mode: 2
         m_Arguments:
@@ -2182,8 +2182,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: D08_Scene01_Controller, Assembly-CSharp
+      - m_Target: {fileID: 1140157311}
+        m_TargetAssemblyTypeName: Scene_Controller, Assembly-CSharp
         m_MethodName: OnClick_LoadScene
         m_Mode: 2
         m_Arguments:

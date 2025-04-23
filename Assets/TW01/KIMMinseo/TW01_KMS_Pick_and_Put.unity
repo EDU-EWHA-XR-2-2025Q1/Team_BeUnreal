@@ -511,7 +511,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1f46c72f09a4c4d41abfe0e91454eade, type: 2}
+  - {fileID: 2100000, guid: 60e7f8e190a394afd8aa45f70680bb85, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -822,12 +822,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 540281270}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18bd5ddd32aaf4b149ab16db7a198ed1, type: 3}
+  m_Script: {fileID: 11500000, guid: d2e7efd70316541389571eabcb5557a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TargetObjectToThrow: {fileID: 1614825805}
-  PlayerCamera: {fileID: 1087469152}
-  UI: {fileID: 1553558512}
 --- !u!1 &540745898
 GameObject:
   m_ObjectHideFlags: 0
@@ -1007,7 +1004,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e5797cd11b7b64f2c9541164ec0624cb, type: 2}
+  - {fileID: 2100000, guid: 9b978beb187264172a1a840250e36240, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1079,7 +1076,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 575162871}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac8294b35875c4b0597e1e82298e7982, type: 3}
+  m_Script: {fileID: 11500000, guid: 561489e6100ed4cca9fd651a05acc218, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Target: {fileID: 1614825805}
@@ -1168,7 +1165,7 @@ PrefabInstance:
     - target: {fileID: -7635826562936255635, guid: bb419c043d8a105458cdaa955110d54b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 1f46c72f09a4c4d41abfe0e91454eade, type: 2}
+      objectReference: {fileID: 2100000, guid: 60e7f8e190a394afd8aa45f70680bb85, type: 2}
     - target: {fileID: 919132149155446097, guid: bb419c043d8a105458cdaa955110d54b, type: 3}
       propertyPath: m_Name
       value: Heart
@@ -1237,7 +1234,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 673814712}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 02ec5ecfdede642dfbe25e2f2df6f4a3, type: 3}
+  m_Script: {fileID: 11500000, guid: 012d02d0e2a9a447098c0da7924433e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   UI: {fileID: 1553558512}
@@ -1835,7 +1832,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e5797cd11b7b64f2c9541164ec0624cb, type: 2}
+  - {fileID: 2100000, guid: 9b978beb187264172a1a840250e36240, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2071,11 +2068,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
   m_PrefabInstance: {fileID: 1087469150}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &1087469152 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
-  m_PrefabInstance: {fileID: 1087469150}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1199698945
 GameObject:
   m_ObjectHideFlags: 0
@@ -2143,7 +2135,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3bd1a717b165141ba8c0d03a09873c3c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  UI_Controller: {fileID: 1553558512}
 --- !u!1 &1228066148
 GameObject:
   m_ObjectHideFlags: 0
@@ -2297,7 +2288,7 @@ MonoBehaviour:
         m_MethodName: OnClick_LoadScene
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: 9de91a2fc925d428a9ca7865be36eb08, type: 3}
+          m_ObjectArgument: {fileID: 102900000, guid: 6f8e1ec94ad034fb8b90cd3d3e39f0bc, type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -2355,7 +2346,7 @@ PrefabInstance:
     - target: {fileID: -7635826562936255635, guid: 40e365ab456959f4981607bf41a968ea, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: e5797cd11b7b64f2c9541164ec0624cb, type: 2}
+      objectReference: {fileID: 2100000, guid: 9b978beb187264172a1a840250e36240, type: 2}
     - target: {fileID: 919132149155446097, guid: 40e365ab456959f4981607bf41a968ea, type: 3}
       propertyPath: m_Name
       value: Bowl
@@ -2447,8 +2438,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1553558514}
-  - component: {fileID: 1553558513}
-  - component: {fileID: 1553558515}
   m_Layer: 0
   m_Name: UI
   m_TagString: Untagged
@@ -2456,20 +2445,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1553558513
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1553558512}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c9c4259943eb09245a4fa828abba3a25, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PickCounts: {fileID: 749090157}
-  PutCounts: {fileID: 779083930}
 --- !u!4 &1553558514
 Transform:
   m_ObjectHideFlags: 0
@@ -2488,20 +2463,6 @@ Transform:
   - {fileID: 1643415585}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1553558515
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1553558512}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6067a8ec04fe840edb3b4e8685aa932d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PickCounts: {fileID: 749090157}
-  PutCounts: {fileID: 779083930}
 --- !u!1 &1614825805
 GameObject:
   m_ObjectHideFlags: 0
@@ -2597,7 +2558,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4109f963a0d2843efa223730ea9d4f3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PickController: {fileID: 673814712}
 --- !u!1 &1626605597
 GameObject:
   m_ObjectHideFlags: 0
@@ -2658,7 +2618,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1643415583}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cbbc25e5a8ba04026b5034336b6ea5f1, type: 3}
+  m_Script: {fileID: 11500000, guid: d0f593eec8c1048eeab40c75787d12bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &1643415585
@@ -2752,7 +2712,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1f46c72f09a4c4d41abfe0e91454eade, type: 2}
+  - {fileID: 2100000, guid: 60e7f8e190a394afd8aa45f70680bb85, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
