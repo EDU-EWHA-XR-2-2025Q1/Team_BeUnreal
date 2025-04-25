@@ -825,6 +825,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2e7efd70316541389571eabcb5557a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TargetObjectToThrow: {fileID: 1614825805}
+  PlayerCamera: {fileID: 1087469151}
+  UI: {fileID: 1553558512}
 --- !u!1 &540745898
 GameObject:
   m_ObjectHideFlags: 0
@@ -2132,9 +2135,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1199698945}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3bd1a717b165141ba8c0d03a09873c3c, type: 3}
+  m_Script: {fileID: 11500000, guid: db770fb494221474d96b9863b98eb31d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UI_Controller: {fileID: 1553558512}
 --- !u!1 &1228066148
 GameObject:
   m_ObjectHideFlags: 0
@@ -2438,6 +2442,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1553558514}
+  - component: {fileID: 1553558515}
   m_Layer: 0
   m_Name: UI
   m_TagString: Untagged
@@ -2463,6 +2468,20 @@ Transform:
   - {fileID: 1643415585}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1553558515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1553558512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f006d42320c34726afb3bdccee00480, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickCounts: {fileID: 749090157}
+  PutCounts: {fileID: 779083930}
 --- !u!1 &1614825805
 GameObject:
   m_ObjectHideFlags: 0
@@ -2555,9 +2574,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1614825805}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4109f963a0d2843efa223730ea9d4f3f, type: 3}
+  m_Script: {fileID: 11500000, guid: 4352b3f6d6c684190a005b8f494e37b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PickController: {fileID: 673814712}
 --- !u!1 &1626605597
 GameObject:
   m_ObjectHideFlags: 0
