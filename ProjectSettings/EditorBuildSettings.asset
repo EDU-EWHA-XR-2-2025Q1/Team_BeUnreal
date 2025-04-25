@@ -9,6 +9,14 @@ EditorBuildSettings:
     path: Assets/TW01/StartScene.unity
     guid: 9de91a2fc925d428a9ca7865be36eb08
   - enabled: 1
+<<<<<<< Updated upstream
     path: Assets/TW01/TW01_2276046_KMS/KMS_Pick_and_Put.unity
     guid: 542c9513f9a454d98a5d4622560ed9cb
+=======
+    path: Assets/TW01/KIMMinseo/TW01_KMS_Pick_and_Put.unity
+    guid: 3d2184fa919bf4d96846e41c3aef7776
+  - enabled: 1
+    path: Assets/TW01/TW01_2176134_MIH/TW01_MIH_Pick_and_Put.unity
+    guid: 44fe669897a67934884b133a26c93342
+>>>>>>> Stashed changes
   m_configObjects: {}
