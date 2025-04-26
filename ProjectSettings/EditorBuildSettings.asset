@@ -15,6 +15,15 @@ EditorBuildSettings:
     path: Assets/TW01/TW01_2271058_CHE/TW01_CHE_Pick_and_Put.unity
     guid: 594019ab4bd4288439f7e0dbce9033d1
   - enabled: 1
-    path: Assets/TW01/TW01_2176134_MIH/TW01_MIH_Pick_and_Put.unity
+    path: Assets/TW01/MOONIhyun/TW01_MIH_Pick_and_Put.unity
     guid: 44fe669897a67934884b133a26c93342
+  - enabled: 1
+    path: Assets/TW01/AHNChaeyeon/TW01_ACY_DesktopVR_PickAndPut.unity
+    guid: 9cf11b2b52b99514aa150a5235fab5c2
+  - enabled: 1
+    path: Assets/TW01/KIMYerin/TW01_KYR_Pick_and_Put.unity
+    guid: 2ae27861a1943274f8e4a2917a28df6d
+  - enabled: 1
+    path: Assets/TW01/KIMYeonsu/TW01_KYS_Interaction_Technics_Start.unity
+    guid: 004c21c88c4d51d48a009bc75e03fb13
   m_configObjects: {}
