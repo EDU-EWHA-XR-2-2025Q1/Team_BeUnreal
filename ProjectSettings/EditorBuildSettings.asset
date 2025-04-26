@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/TW01/TW01_2271058_CHE/TW01_CHE_Pick_and_Put.unity
     guid: 594019ab4bd4288439f7e0dbce9033d1
+  - enabled: 1
+    path: Assets/TW01/TW01_2176134_MIH/TW01_MIH_Pick_and_Put.unity
+    guid: 44fe669897a67934884b133a26c93342
   m_configObjects: {}
