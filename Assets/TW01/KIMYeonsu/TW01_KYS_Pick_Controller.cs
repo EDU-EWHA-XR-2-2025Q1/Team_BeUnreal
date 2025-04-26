@@ -3,23 +3,23 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-//Step03: ¸¶¿ì½º·Î º¹Á¦ÇÑ Item À» Å¬¸¯ÇÏ¸é Å¬¸¯ÇÑ È½¼ö´Â º¯¼ö¿¡ ÇÒ´çÇÏ°í Å¬¸¯ÇÑ Å¬·ĞÀº Destroy ÇÏ±â
-//Step04: Item À» Å¬¸¯ÇÑ È½¼ö¸¦ UI ¿¡ Ç¥½ÃÇÏ±â
+//Step03: ë§ˆìš°ìŠ¤ë¡œ ë³µì œí•œ Item ì„ í´ë¦­í•˜ë©´ í´ë¦­í•œ íšŸìˆ˜ëŠ” ë³€ìˆ˜ì— í• ë‹¹í•˜ê³  í´ë¦­í•œ í´ë¡ ì€ Destroy í•˜ê¸°
+//Step04: Item ì„ í´ë¦­í•œ íšŸìˆ˜ë¥¼ UI ì— í‘œì‹œí•˜ê¸°
 
 
 public class TW01_KYS_Pick_Controller : MonoBehaviour
 {
-    int clickCounter = 0; // Å¬¸¯ÇÑ Å¬·ĞÀÇ ¼ö
-    public GameObject UI; // Step04 (UI °ü·Ã ½ºÅ©¸³Æ®¸¦ °®°í ÀÖ´Â °ÔÀÓ ¿ÀºêÁ§Æ®)
+    int clickCounter = 0; // í´ë¦­í•œ í´ë¡ ì˜ ìˆ˜
+    public GameObject UI; // Step04 (UI ê´€ë ¨ ìŠ¤í¬ë¦½íŠ¸ë¥¼ ê°–ê³  ìˆëŠ” ê²Œì„ ì˜¤ë¸Œì íŠ¸)
                           
-    // clickCounter ÀÇ °ªÀ» 1 ¾¿ Áõ°¡½ÃÅ°´Â ÇÔ¼ö
+    // clickCounter ì˜ ê°’ì„ 1 ì”© ì¦ê°€ì‹œí‚¤ëŠ” í•¨ìˆ˜
     public void Add_Click(GameObject Clone)
     {
         clickCounter++;
-        print($"{clickCounter} °³ÀÇ Å¬·ĞÀ» Å¬¸¯Çß½À´Ï´Ù.");
+        print($"{clickCounter} ê°œì˜ í´ë¡ ì„ í´ë¦­í–ˆìŠµë‹ˆë‹¤.");
         Destroy(Clone);
 
-        // Step04 (UI ¿¡ ³»¿ëÀ» Ç¥½ÃÇÏ´Â ½ºÅ©¸³Æ® È£Ãâ)
+        // Step04 (UI ì— ë‚´ìš©ì„ í‘œì‹œí•˜ëŠ” ìŠ¤í¬ë¦½íŠ¸ í˜¸ì¶œ)
         UI.GetComponent<TW01_KYS_UI_Controller>().Display_PickCounts(clickCounter);
     }
 }
