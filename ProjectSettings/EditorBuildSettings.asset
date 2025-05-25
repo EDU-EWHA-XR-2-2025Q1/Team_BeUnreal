@@ -6,24 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/TW01/TW01_StartScene.unity
-    guid: 6f8e1ec94ad034fb8b90cd3d3e39f0bc
+    path: Assets/ARoundEWHA/Scenes/Setting.unity
+    guid: 22e617556a6a04c36b82cb559b5fce0f
   - enabled: 1
-    path: Assets/TW01/KIMMinseo/TW01_KMS_Pick_and_Put.unity
-    guid: 3d2184fa919bf4d96846e41c3aef7776
+    path: Assets/ARoundEWHA/Scenes/Status.unity
+    guid: 3bcefb3f78ecb4fd4bac9ad84dfd758d
   - enabled: 1
-    path: Assets/TW01/TW01_2271058_CHE/TW01_CHE_Pick_and_Put.unity
-    guid: 594019ab4bd4288439f7e0dbce9033d1
+    path: Assets/ARoundEWHA/Scenes/Sci2ToPos1.unity
+    guid: f68355e1c2936468284d8f070120c2ad
   - enabled: 1
-    path: Assets/TW01/MOONIhyun/TW01_MIH_Pick_and_Put.unity
-    guid: 44fe669897a67934884b133a26c93342
-  - enabled: 1
-    path: Assets/TW01/AHNChaeyeon/TW01_ACY_DesktopVR_PickAndPut.unity
-    guid: 9cf11b2b52b99514aa150a5235fab5c2
-  - enabled: 1
-    path: Assets/TW01/KIMYerin/TW01_KYR_Pick_and_Put.unity
-    guid: 2ae27861a1943274f8e4a2917a28df6d
-  - enabled: 1
-    path: Assets/TW01/KIMYeonsu/TW01_KYS_Interaction_Technics_Start.unity
-    guid: 004c21c88c4d51d48a009bc75e03fb13
+    path: Assets/ARoundEWHA/Scenes/Sci2ToPos1_Item.unity
+    guid: cc7b752d714124922b9df1940d5726fe
   m_configObjects: {}
