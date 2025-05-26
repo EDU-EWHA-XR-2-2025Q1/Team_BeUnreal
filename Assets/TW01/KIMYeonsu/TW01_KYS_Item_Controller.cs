@@ -2,22 +2,22 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-//Step01: [Item_Original] Å¬¸¯ÇÏ±â
-//Step03: ¸¶¿ì½º·Î º¹Á¦ÇÑ Item À» Å¬¸¯ÇÏ¸é Å¬¸¯ÇÑ È½¼ö´Â º¯¼ö¿¡ ÇÒ´çÇÏ°í Å¬¸¯ÇÑ Å¬·ĞÀº Destroy ÇÏ±â
+//Step01: [Item_Original] í´ë¦­í•˜ê¸°
+//Step03: ë§ˆìš°ìŠ¤ë¡œ ë³µì œí•œ Item ì„ í´ë¦­í•˜ë©´ í´ë¦­í•œ íšŸìˆ˜ëŠ” ë³€ìˆ˜ì— í• ë‹¹í•˜ê³  í´ë¦­í•œ í´ë¡ ì€ Destroy í•˜ê¸°
 
 
 public class TW01_KYS_Item_Controller : MonoBehaviour
 {
-    public GameObject PickController; // Step03 (TW01_KYS_Pick_Controller.cs ¸¦ °®°í ÀÖ´Â °ÔÀÓ ¿ÀºêÁ§Æ®¿ë º¯¼ö)
+    public GameObject PickController; // Step03 (TW01_KYS_Pick_Controller.cs ë¥¼ ê°–ê³  ìˆëŠ” ê²Œì„ ì˜¤ë¸Œì íŠ¸ìš© ë³€ìˆ˜)
     private void OnMouseDown()
     {
         PrintInfo(); // Step01
         PickController.GetComponent<TW01_KYS_Pick_Controller>().Add_Click(gameObject);
         // Step03
     }
-    // Step01: °ÔÀÓ ¿ÀºêÁ§Æ®ÀÇ ÀÌ¸§ Ãâ·Â
+    // Step01: ê²Œì„ ì˜¤ë¸Œì íŠ¸ì˜ ì´ë¦„ ì¶œë ¥
     void PrintInfo()
     {
-        print($"{gameObject.name}À»/¸¦ Å¬¸¯Çß½À´Ï´Ù.");
+        print($"{gameObject.name}ì„/ë¥¼ í´ë¦­í–ˆìŠµë‹ˆë‹¤.");
     }
 }
