@@ -14,4 +14,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/ARoundEWHA/Scenes/EccToFront_Item.unity
     guid: b3509b0c6e176994f8fda5ede91ab1f5
+  - enabled: 1
+    path: Assets/ARoundEWHA/Scenes/Sci2ToPos1_Item.unity
+    guid: cc7b752d714124922b9df1940d5726fe
+  - enabled: 1
+    path: Assets/ARoundEWHA/Scenes/Sci1ToSci2.unity
+    guid: d581bffaa751b204fbdc03a255a4e2ca
+  - enabled: 1
+    path: Assets/ARoundEWHA/Scenes/Sci1ToSci2_Item.unity
+    guid: bf79a14368470e94f8fec94bbd70adc0
   m_configObjects: {}
