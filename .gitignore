@@ -91,3 +91,10 @@ crashlytics-build.properties
 *.mdb
 *.opendb
 *.VC.db
+*.tgz
+#Vuforia
+Assets/Common/
+Editor/
+Resources/
+SamplesResources/
+QCAR/
