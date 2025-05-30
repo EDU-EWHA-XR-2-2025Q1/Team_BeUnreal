@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using Vuforia;
+using System.Collections;
 
 public class SceneChangerOnTargetFound : MonoBehaviour
 {
@@ -71,11 +72,17 @@ public class SceneChangerOnTargetFound : MonoBehaviour
     private void OnTargetStatusChanged(ObserverBehaviour behaviour, TargetStatus targetStatus)
     {
         if (!isSceneLoaded &&
-            targetStatus.Status == Status.TRACKED || targetStatus.Status == Status.EXTENDED_TRACKED)
+            (targetStatus.Status == Status.TRACKED || targetStatus.Status == Status.EXTENDED_TRACKED))
         {
             isSceneLoaded = true;
-            SceneManager.LoadScene(sceneNameToLoad);
+            StartCoroutine(LoadSceneWithDelay(0.5f));
         }
+    }
+
+    private IEnumerator LoadSceneWithDelay(float delaySeconds)
+    {
+        yield return new WaitForSeconds(delaySeconds);
+        SceneManager.LoadScene(sceneNameToLoad);
     }
 
 }

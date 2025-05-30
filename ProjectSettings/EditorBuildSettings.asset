@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/ARoundEWHA/Scenes/Sci1ToSci2_Item.unity
     guid: bf79a14368470e94f8fec94bbd70adc0
+  - enabled: 1
+    path: Assets/ARoundEWHA/Scenes/Sci2ToPos1.unity
+    guid: f68355e1c2936468284d8f070120c2ad
   m_configObjects: {}
