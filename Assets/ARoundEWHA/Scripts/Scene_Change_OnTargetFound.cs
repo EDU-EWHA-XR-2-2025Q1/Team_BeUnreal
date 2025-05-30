@@ -9,6 +9,56 @@ public class SceneChangerOnTargetFound : MonoBehaviour
     private ObserverBehaviour observerBehaviour;
     private bool isSceneLoaded = false;
 
+
+    [Range(10, 200)]
+    public int fontSize = 100;
+    public Color textColor = Color.black;
+    public Color backgroundColor = Color.white;
+    public float boxWidth = 800;
+    public float boxHeight = 200;
+    string message = "";
+
+
+    public void OnTarget_Found(string _s)
+    {
+        message = _s;
+    }
+
+    public void OnTarget_Lost(string _s)
+    {
+        message = _s;
+    }
+
+    void OnGUI()
+    {
+        if (string.IsNullOrEmpty(message)) return;
+
+        GUIStyle style = new GUIStyle(GUI.skin.box);
+        style.fontSize = fontSize;
+        style.normal.textColor = textColor;
+        style.alignment = TextAnchor.MiddleCenter;
+        style.normal.background = MakeTex(2, 2, backgroundColor);
+
+        float x = (Screen.width - boxWidth) / 2;
+        float y = (Screen.height - boxHeight) / 2;
+
+        GUI.Box(new Rect(x, y, boxWidth, boxHeight), message, style);
+    }
+
+    Texture2D MakeTex(int width, int height, Color col)
+    {
+        Color[] pix = new Color[width * height];
+        for (int i = 0; i < pix.Length; i++)
+            pix[i] = col;
+
+        Texture2D result = new Texture2D(width, height);
+        result.SetPixels(pix);
+        result.Apply();
+
+        return result;
+    }
+
+
     void Start()
     {
         observerBehaviour = GetComponent<ObserverBehaviour>();
@@ -28,4 +78,6 @@ public class SceneChangerOnTargetFound : MonoBehaviour
             SceneManager.LoadScene(sceneNameToLoad);
         }
     }
+
+
 }

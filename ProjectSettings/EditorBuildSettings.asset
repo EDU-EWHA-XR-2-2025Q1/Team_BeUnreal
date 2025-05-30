@@ -6,15 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/ARoundEWHA/Scenes/Setting.unity
-    guid: 22e617556a6a04c36b82cb559b5fce0f
-  - enabled: 1
     path: Assets/ARoundEWHA/Scenes/Status.unity
     guid: 3bcefb3f78ecb4fd4bac9ad84dfd758d
   - enabled: 1
-    path: Assets/ARoundEWHA/Scenes/Sci2ToPos1.unity
-    guid: f68355e1c2936468284d8f070120c2ad
+    path: Assets/ARoundEWHA/Scenes/Setting.unity
+    guid: 22e617556a6a04c36b82cb559b5fce0f
   - enabled: 1
-    path: Assets/ARoundEWHA/Scenes/Sci2ToPos1_Item.unity
-    guid: cc7b752d714124922b9df1940d5726fe
+    path: Assets/ARoundEWHA/Scenes/EccToFront_Item.unity
+    guid: b3509b0c6e176994f8fda5ede91ab1f5
   m_configObjects: {}
