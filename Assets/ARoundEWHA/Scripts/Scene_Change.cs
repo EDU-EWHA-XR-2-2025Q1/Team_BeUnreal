@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 public class Scene_Change : MonoBehaviour
 {
-    public TextMeshProUGUI routeTextField;  // Text (TMP)_Information ¿¬°á
+    public TextMeshProUGUI routeTextField;  // Text (TMP)_Information ì—°ê²°
 
     public void OnClick_LoadScene(Object SceneObject)
     {
@@ -19,7 +19,7 @@ public class Scene_Change : MonoBehaviour
         Debug.Log("Saved previous scene: " + currentScene);
         Debug.Log("Loading scene: " + SceneObject.name);
 
-        // Ãß°¡: ÅØ½ºÆ® ³»¿ë ÀúÀå
+        // ì¶”ê°€: í…ìŠ¤íŠ¸ ë‚´ìš© ì €ì¥
         if (routeTextField != null)
         {
             SceneTracker.RouteText = routeTextField.text;
@@ -29,7 +29,7 @@ public class Scene_Change : MonoBehaviour
         SceneManager.LoadScene(SceneObject.name);
     }
 
-    // Status ¾À¿¡¼­ ÀÌÀü ¾ÀÀ¸·Î µ¹¾Æ°¡±â
+    // Status ì”¬ì—ì„œ ì´ì „ ì”¬ìœ¼ë¡œ ëŒì•„ê°€ê¸°
     public void ReturnToPreviousScene()
     {
         if (!string.IsNullOrEmpty(SceneTracker.PreviousSceneName))

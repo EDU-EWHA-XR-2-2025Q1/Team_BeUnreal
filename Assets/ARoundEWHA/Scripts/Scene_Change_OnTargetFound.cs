@@ -57,8 +57,7 @@ public class SceneChangerOnTargetFound : MonoBehaviour
 
         return result;
     }
-
-
+    
     void Start()
     {
         observerBehaviour = GetComponent<ObserverBehaviour>();
@@ -78,6 +77,5 @@ public class SceneChangerOnTargetFound : MonoBehaviour
             SceneManager.LoadScene(sceneNameToLoad);
         }
     }
-
 
 }
