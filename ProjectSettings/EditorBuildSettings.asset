@@ -6,9 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/TW01/TW01_StartScene.unity
-    guid: 6f8e1ec94ad034fb8b90cd3d3e39f0bc
+    path: Assets/ARoundEWHA/Scenes/Status.unity
+    guid: 3bcefb3f78ecb4fd4bac9ad84dfd758d
   - enabled: 1
-    path: Assets/TW01/KIMMinseo/TW01_KMS_Pick_and_Put.unity
-    guid: 3d2184fa919bf4d96846e41c3aef7776
+    path: Assets/ARoundEWHA/Scenes/Setting.unity
+    guid: 22e617556a6a04c36b82cb559b5fce0f
+  - enabled: 1
+    path: Assets/ARoundEWHA/Scenes/EccToFront_Item.unity
+    guid: b3509b0c6e176994f8fda5ede91ab1f5
   m_configObjects: {}

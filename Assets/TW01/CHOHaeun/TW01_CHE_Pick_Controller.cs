@@ -2,11 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class D13_Pick_Controller : MonoBehaviour
+public class TW01_CHE_Pick_Controller : MonoBehaviour
 {
     int pickCount = 0;
     bool isInTheArea = false;
-
     public GameObject UI;
 
     public void Increase_PickCount(GameObject Clone)
@@ -16,15 +15,15 @@ public class D13_Pick_Controller : MonoBehaviour
             pickCount++;
             print($"pick count: {pickCount}");
             Destroy(Clone);
-            UI.GetComponent<D13_UI_Controller>().DIsplay_PickCounts(pickCount);
+            UI.GetComponent<TW01_CHE_UI_Controller>().Display_PickCounts(pickCount);
         }
     }
 
-    private void OnTriggerStay(Collider other)
+    void OnTriggerStay(Collider other)
     {
         if(other.name == "FPSController")
         {
-            isInTheArea = true;
+            isInTheArea= true;
         }
     }
 
@@ -32,7 +31,7 @@ public class D13_Pick_Controller : MonoBehaviour
     {
         if(other.name == "FPSController")
         {
-            isInTheArea = false;
+            isInTheArea= false;
         }
     }
 }

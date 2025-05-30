@@ -255,6 +255,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneNameToLoad: Pos1ToPos2
+  fontSize: 100
+  textColor: {r: 0, g: 0, b: 0, a: 1}
+  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+  boxWidth: 800
+  boxHeight: 200
 --- !u!4 &46647769
 Transform:
   m_ObjectHideFlags: 0
@@ -833,7 +838,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uD3EC\uC2A4\uCF54\uAD00 4\uCE35"
+  m_text: "\uD3EC\uAD00"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 140cce2ddf7cfa04b9c4b50d4ae29af5, type: 2}
   m_sharedMaterial: {fileID: -5294631805555508866, guid: 140cce2ddf7cfa04b9c4b50d4ae29af5,
@@ -1549,6 +1554,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 726d94b9d913a413a8e3bcfa3649f622, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  routeTextField: {fileID: 936619604}
 --- !u!1 &1830632072
 GameObject:
   m_ObjectHideFlags: 0
