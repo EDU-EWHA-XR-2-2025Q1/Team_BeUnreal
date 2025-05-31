@@ -35,4 +35,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/ARoundEWHA/Scenes/EccToFront.unity
     guid: 0b1db833dddbd5947bcc51de8fb98bdd
+=======
+    path: Assets/ARoundEWHA/Scenes/Pos2ToEcc.unity
+    guid: 5e06a6a0d030f86409f003fb0695c9f6
+  - enabled: 1
+    path: Assets/ARoundEWHA/Scenes/Pos2ToEcc_Item.unity
+    guid: 591a1df729c565747811b985c3658fc3
   m_configObjects: {}
