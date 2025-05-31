@@ -254,7 +254,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f3998ad823eb4c679f2143ee465456b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneNameToLoad: Pos1ToPos2
+  sceneNameToLoad: Pos2ToEcc
   fontSize: 100
   textColor: {r: 0, g: 0, b: 0, a: 1}
   backgroundColor: {r: 1, g: 1, b: 1, a: 1}
