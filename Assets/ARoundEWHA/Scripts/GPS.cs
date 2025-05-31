@@ -103,7 +103,13 @@ public class GPS : MonoBehaviour
                 "\nTimeStamp=" + timestamp + 
                 "\nCounter=" + counter; 
             print(debugMessage); 
-            yield return new WaitForSeconds(10.0f); 
+            yield return new WaitForSeconds(10.0f);
+
+            // soo: 현재 위치를 GoogleMap.cs에 전달
+            FindObjectOfType<GoogleMap>().SetLocation(latitude, longitude);
+
+            yield return new WaitForSeconds(10.0f);
+
         } 
     } 
 
@@ -114,5 +120,7 @@ public class GPS : MonoBehaviour
         style.normal.textColor = color; //new Color(.0f, .0f, .0f, 1.0f); 
         style.alignment = TextAnchor.UpperLeft; 
         GUI.Label(new Rect(0, 0, width, height), debugMessage, style); 
-    } 
+    }
+
+
 } 
