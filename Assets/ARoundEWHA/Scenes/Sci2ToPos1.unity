@@ -1147,7 +1147,7 @@ MonoBehaviour:
         m_MethodName: OnClick_LoadScene
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: cc7b752d714124922b9df1940d5726fe,
+          m_ObjectArgument: {fileID: 102900000, guid: 24e373234e73f6645820150003d0bf96,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
@@ -1400,7 +1400,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uC885\uD569\uACFC\uD559\uAD00 B4\uCE35 > \uD3EC\uC2A4\uCF54\uAD00 4\uCE35"
+  m_text: "\uC885\uD569\uACFC\uD559\uAD00 B2\uCE35 > \uD3EC\uC2A4\uCF54\uAD00 4\uCE35"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 140cce2ddf7cfa04b9c4b50d4ae29af5, type: 2}
   m_sharedMaterial: {fileID: -5294631805555508866, guid: 140cce2ddf7cfa04b9c4b50d4ae29af5,
