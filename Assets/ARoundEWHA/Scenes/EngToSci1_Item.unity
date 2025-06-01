@@ -255,6 +255,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneNameToLoad: Sci1ToSci2
+  fontSize: 100
+  textColor: {r: 0, g: 0, b: 0, a: 1}
+  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+  boxWidth: 800
+  boxHeight: 200
 --- !u!4 &46647769
 Transform:
   m_ObjectHideFlags: 0
@@ -433,7 +438,20 @@ MonoBehaviour:
     m_RotationOrder: 4
   OnTargetFound:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 616232719}
+        m_TargetAssemblyTypeName: SceneChangerOnTargetFound, Assembly-CSharp
+        m_MethodName: OnTarget_Found
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: "\uC885\uD569\uACFC\uD559\uAD00 4\uCE35 \uB3C4\uCC29
+            \uC131\uACF5!"
+          m_BoolArgument: 0
+        m_CallState: 2
   OnTargetLost:
     m_PersistentCalls:
       m_Calls: []
@@ -492,6 +510,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneNameToLoad: Sci1ToSci2
+  fontSize: 100
+  textColor: {r: 0, g: 0, b: 0, a: 1}
+  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+  boxWidth: 800
+  boxHeight: 200
 --- !u!114 &616232720
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -570,9 +593,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\uD604\uC7AC \uC704\uCE58: "
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: e67de44897add7540a0e10555d94a255, type: 2}
-  m_sharedMaterial: {fileID: 3526529165424505372, guid: e67de44897add7540a0e10555d94a255,
-    type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -940,9 +962,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\uC885\uD569\uACFC\uD559\uAD00 4\uCE35"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: e67de44897add7540a0e10555d94a255, type: 2}
-  m_sharedMaterial: {fileID: 3526529165424505372, guid: e67de44897add7540a0e10555d94a255,
-    type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1727,6 +1748,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 726d94b9d913a413a8e3bcfa3649f622, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  routeTextField: {fileID: 0}
 --- !u!1 &1830632072
 GameObject:
   m_ObjectHideFlags: 0
@@ -2024,9 +2046,8 @@ MonoBehaviour:
   m_text: "\uD654\uBA74\uC5D0 \uBCF4\uC774\uB294 \uC0AC\uC9C4\uACFC \uAC19\uC740
     \uBB3C\uAC74\uC744 \uCC3E\uC544 \uCE74\uBA54\uB77C\uB85C \uBE44\uCD94\uC138\uC694."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: e67de44897add7540a0e10555d94a255, type: 2}
-  m_sharedMaterial: {fileID: 3526529165424505372, guid: e67de44897add7540a0e10555d94a255,
-    type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

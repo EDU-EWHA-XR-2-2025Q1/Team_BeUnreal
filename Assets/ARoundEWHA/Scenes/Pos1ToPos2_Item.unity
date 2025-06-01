@@ -463,7 +463,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 0, g: 0.27450982, b: 0.16470589, a: 0.392}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -548,7 +548,19 @@ MonoBehaviour:
     m_RotationOrder: 4
   OnTargetFound:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 616232719}
+        m_TargetAssemblyTypeName: SceneChangerOnTargetFound, Assembly-CSharp
+        m_MethodName: OnTarget_Found
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: "\uD3EC\uC2A4\uCF54\uAD00 B1\uCE35 \uB3C4\uCC29 \uC644\uB8CC!"
+          m_BoolArgument: 0
+        m_CallState: 2
   OnTargetLost:
     m_PersistentCalls:
       m_Calls: []
@@ -1345,9 +1357,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: 726d94b9d913a413a8e3bcfa3649f622, type: 3}
+      - m_Target: {fileID: 1795835917}
         m_TargetAssemblyTypeName: Scene_Change, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: OnClick_LoadScene
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 102900000, guid: 22e617556a6a04c36b82cb559b5fce0f,
@@ -2308,9 +2320,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: 726d94b9d913a413a8e3bcfa3649f622, type: 3}
+      - m_Target: {fileID: 1795835917}
         m_TargetAssemblyTypeName: Scene_Change, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: OnClick_LoadScene
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 102900000, guid: 3bcefb3f78ecb4fd4bac9ad84dfd758d,
