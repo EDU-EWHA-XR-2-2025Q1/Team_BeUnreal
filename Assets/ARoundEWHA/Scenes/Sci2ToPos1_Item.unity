@@ -332,7 +332,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uD3EC\uC2A4\uCF54\uAD00 4\uCE35 \uC5D8\uB9AC\uBCA0\uC774\uD130 \uB9DE\uC740\uD3B8\n\uADFC\uCC98\uC5D0\uC11C
+  m_text: "\uD3EC\uC2A4\uCF54\uAD00 4\uCE35 \uC785\uAD6C\n\uADFC\uCC98\uC5D0\uC11C
     \uCC3E\uC544\uBCF4\uC138\uC694!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 140cce2ddf7cfa04b9c4b50d4ae29af5, type: 2}
@@ -579,14 +579,14 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: Pos2_Target
+  mTrackableName: Pos1_Target
   mInitializedInEditor: 1
   mDataSetPath: 
-  mAspectRatio: 1.1932433
+  mAspectRatio: 1.0209523
   mImageTargetType: 3
-  mWidth: 0.16761042
-  mHeight: 0.2
-  mRuntimeTexture: {fileID: 2800000, guid: 0dbecf0bf91e1bb4fb85900f3e58be8e, type: 3}
+  mWidth: 0.19589551
+  mHeight: 0.19999997
+  mRuntimeTexture: {fileID: 2800000, guid: 2995f74172af0418fada33114c94c2a5, type: 3}
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
@@ -638,7 +638,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 616232717}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Pos2_Target
+  mTargetName: Pos1_Target
   mDatasetName: 
   mCastedBehaviour: {fileID: 616232717}
   mMeshFilter: {fileID: 0}
@@ -1559,7 +1559,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 0dbecf0bf91e1bb4fb85900f3e58be8e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6d87375400e71425083a7f0975d3ab57, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
