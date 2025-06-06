@@ -16,7 +16,7 @@ public class GoogleMap : MonoBehaviour
     //string APIKey = "자신의 API 키";
 
     //soo: APIKey 불러오기 추가: 시작
-    string APIKey = "AIzaSyC6gSVrUXZKqqTNknzQaUuYqzqccB855HE";
+    string APIKey = "";
 
     void Awake()
     {
