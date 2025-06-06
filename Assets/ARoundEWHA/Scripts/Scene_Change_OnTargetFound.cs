@@ -12,7 +12,7 @@ public class SceneChangerOnTargetFound : MonoBehaviour
 
 
     [Range(10, 200)]
-    public int fontSize = 100;
+    public int fontSize = 50;
     public Color textColor = Color.black;
     public Color backgroundColor = Color.white;
     public float boxWidth = 800;
@@ -35,7 +35,7 @@ public class SceneChangerOnTargetFound : MonoBehaviour
         if (string.IsNullOrEmpty(message)) return;
 
         GUIStyle style = new GUIStyle(GUI.skin.box);
-        style.fontSize = fontSize;
+        style.fontSize = 50;
         style.normal.textColor = textColor;
         style.alignment = TextAnchor.MiddleCenter;
         style.normal.background = MakeTex(2, 2, backgroundColor);
