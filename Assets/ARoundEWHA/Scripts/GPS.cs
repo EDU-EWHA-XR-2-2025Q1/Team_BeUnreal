@@ -1,6 +1,7 @@
 using System.Collections; 
 using System.Collections.Generic; 
-using UnityEngine;  
+using UnityEngine;
+using UnityEngine.Android;
 
 // https://docs.unity3d.com/ScriptReference/LocationService.Start.html 
 public class GPS : MonoBehaviour 
@@ -17,8 +18,17 @@ public class GPS : MonoBehaviour
     int counter; 
 
     void Start() 
-    { 
-        Get_GPS(); 
+    {
+        ///////////////////// 안드로이드 관련 추가
+#if UNITY_ANDROID
+        if (!Permission.HasUserAuthorizedPermission(Permission.FineLocation))
+        {
+            Permission.RequestUserPermission(Permission.FineLocation);
+        }
+#endif
+        /////////////////////
+
+        Get_GPS();
     } 
 
     public void Get_GPS() 
@@ -102,7 +112,8 @@ public class GPS : MonoBehaviour
                 "\nVertical Accuracy=" + verticalAccuracy + 
                 "\nTimeStamp=" + timestamp + 
                 "\nCounter=" + counter; 
-            print(debugMessage); 
+            print(debugMessage);
+            print("keepAlive 상태: " + keepAlive);
             yield return new WaitForSeconds(10.0f);
 
             // soo: 현재 위치를 GoogleMap.cs에 전달
