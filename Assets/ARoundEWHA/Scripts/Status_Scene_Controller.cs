@@ -5,13 +5,13 @@ using UnityEngine;
 
 public class Status_Scene_Controller : MonoBehaviour
 {
-    public TextMeshProUGUI infoText;        // "ÈÄÀµ±æ > ÀÌÈ­¿©´ë Á¤¹®" °æ·Î°¡ µé¾îÀÖ´Â ÅØ½ºÆ®
-    public TextMeshProUGUI messageText;     // ½ÇÁ¦·Î ¸Ş½ÃÁö¸¦ ¶ç¿ï ÅØ½ºÆ® (ÀÌµ¿Áß... ¶Ç´Â µµÂø!)
+    public TextMeshProUGUI infoText;        // "í›„ìœ³ê¸¸ > ì´í™”ì—¬ëŒ€ ì •ë¬¸" ê²½ë¡œê°€ ë“¤ì–´ìˆëŠ” í…ìŠ¤íŠ¸
+    public TextMeshProUGUI messageText;     // ì‹¤ì œë¡œ ë©”ì‹œì§€ë¥¼ ë„ìš¸ í…ìŠ¤íŠ¸ (ì´ë™ì¤‘... ë˜ëŠ” ë„ì°©!)
 
     void Start()
     {
-        string route = SceneTracker.RouteText;  // ÀÌÀü ¾À¿¡¼­ °¡Á®¿Â ÅØ½ºÆ®
-        string suffix = SceneTracker.PreviousSceneName.EndsWith("_Item") ? " µµÂø!" : " ÀÌµ¿Áß...";
+        string route = SceneTracker.RouteText;  // ì´ì „ ì”¬ì—ì„œ ê°€ì ¸ì˜¨ í…ìŠ¤íŠ¸
+        string suffix = SceneTracker.PreviousSceneName.EndsWith("_Item") ? " ë„ì°©!" : " ì´ë™ì¤‘...";
 
         infoText.text = route;
         messageText.text = route + suffix;

@@ -945,8 +945,9 @@ MonoBehaviour:
   m_text: "\uACBD\uB85C\uC5D0 \uB530\uB77C \uC774\uB3D9\uD55C \uB4A4 \uB3C4\uCC29
     \uBC84\uD2BC\uC744 \uB204\uB974\uC138\uC694."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 140cce2ddf7cfa04b9c4b50d4ae29af5, type: 2}
+  m_sharedMaterial: {fileID: -5294631805555508866, guid: 140cce2ddf7cfa04b9c4b50d4ae29af5,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1401,8 +1402,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\uC885\uD569\uACFC\uD559\uAD00 4\uCE35 > \uC544\uC0B0\uACF5\uD559\uAD00"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 140cce2ddf7cfa04b9c4b50d4ae29af5, type: 2}
+  m_sharedMaterial: {fileID: -5294631805555508866, guid: 140cce2ddf7cfa04b9c4b50d4ae29af5,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1595,6 +1597,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 726d94b9d913a413a8e3bcfa3649f622, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  routeTextField: {fileID: 0}
 --- !u!4 &1465239243
 Transform:
   m_ObjectHideFlags: 0
@@ -1737,8 +1740,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\uB3C4\uCC29"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 140cce2ddf7cfa04b9c4b50d4ae29af5, type: 2}
+  m_sharedMaterial: {fileID: -5294631805555508866, guid: 140cce2ddf7cfa04b9c4b50d4ae29af5,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2202,8 +2206,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\uACBD\uB85C: "
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 140cce2ddf7cfa04b9c4b50d4ae29af5, type: 2}
+  m_sharedMaterial: {fileID: -5294631805555508866, guid: 140cce2ddf7cfa04b9c4b50d4ae29af5,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
