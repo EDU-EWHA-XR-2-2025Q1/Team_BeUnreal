@@ -421,7 +421,6 @@ GameObject:
   - component: {fileID: 616232718}
   - component: {fileID: 616232717}
   - component: {fileID: 616232716}
-  - component: {fileID: 616232719}
   - component: {fileID: 616232720}
   m_Layer: 0
   m_Name: ImageTarget
@@ -471,7 +470,7 @@ MonoBehaviour:
   OnTargetFound:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 616232719}
+      - m_Target: {fileID: 46647768}
         m_TargetAssemblyTypeName: SceneChangerOnTargetFound, Assembly-CSharp
         m_MethodName: OnTarget_Found
         m_Mode: 5
@@ -528,24 +527,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &616232719
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 616232714}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2f3998ad823eb4c679f2143ee465456b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneNameToLoad: 
-  fontSize: 60
-  textColor: {r: 0, g: 0, b: 0, a: 1}
-  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
-  boxWidth: 800
-  boxHeight: 200
 --- !u!114 &616232720
 MonoBehaviour:
   m_ObjectHideFlags: 0
