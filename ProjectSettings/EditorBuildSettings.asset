@@ -86,4 +86,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/ARoundEWHA/Scenes/EccToFront_Item.unity
     guid: b3509b0c6e176994f8fda5ede91ab1f5
-  m_configObjects: {}
+  - enabled: 1
+    path: Assets/ARoundEWHA/Scenes/Sci1ToEng.unity
+    guid: 25c242a34bfd67942bf61c7ddb88fd38
+  - enabled: 1
+    path: Assets/ARoundEWHA/Scenes/Sci1ToEng_Item.unity
+    guid: 9bf111b8db0555144bac316f0d6562b3
+  - enabled: 1
+    path: Assets/ARoundEWHA/Scenes/Sci2ToSci1.unity
+    guid: 128a371ba5f0efa449ed37f6e4c8f8cc
+  - enabled: 1
+    path: Assets/ARoundEWHA/Scenes/Sci2ToSci1_Item.unity
+    guid: 0dc12389455ac6c4494b079360423a05
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: fb16fccf00eb8cb499fe6ba51e7cd400,
+      type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: e59b83de9c9637d4998fb269ddd72380,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 377c012b06bc7924c998c6dbd4fd1b05,
+      type: 2}
