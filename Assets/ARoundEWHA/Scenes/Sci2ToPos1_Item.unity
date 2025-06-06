@@ -1357,9 +1357,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: 726d94b9d913a413a8e3bcfa3649f622, type: 3}
+      - m_Target: {fileID: 1795835917}
         m_TargetAssemblyTypeName: Scene_Change, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: OnClick_LoadScene
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 102900000, guid: 22e617556a6a04c36b82cb559b5fce0f,
@@ -2320,9 +2320,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: 726d94b9d913a413a8e3bcfa3649f622, type: 3}
+      - m_Target: {fileID: 1795835917}
         m_TargetAssemblyTypeName: Scene_Change, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: OnClick_LoadScene
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 102900000, guid: 3bcefb3f78ecb4fd4bac9ad84dfd758d,

@@ -1357,12 +1357,12 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: 726d94b9d913a413a8e3bcfa3649f622, type: 3}
+      - m_Target: {fileID: 1795835917}
         m_TargetAssemblyTypeName: Scene_Change, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: OnClick_LoadScene
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: 22e617556a6a04c36b82cb559b5fce0f,
+          m_ObjectArgument: {fileID: 102900000, guid: 7a29da074cb2e2347884b630d23567c1,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
@@ -2320,12 +2320,12 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: 726d94b9d913a413a8e3bcfa3649f622, type: 3}
+      - m_Target: {fileID: 1795835917}
         m_TargetAssemblyTypeName: Scene_Change, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: OnClick_LoadScene
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 102900000, guid: 3bcefb3f78ecb4fd4bac9ad84dfd758d,
+          m_ObjectArgument: {fileID: 102900000, guid: 88e4bf7a839e23e4b9152df8461691b5,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0

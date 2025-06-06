@@ -857,7 +857,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uD6C4\uC733\uAE38 (ECC 11\uCD9C)"
+  m_text: "\uD734\uC6C3\uAE38 (ECC 11\uCD9C)"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 140cce2ddf7cfa04b9c4b50d4ae29af5, type: 2}
   m_sharedMaterial: {fileID: -5294631805555508866, guid: 140cce2ddf7cfa04b9c4b50d4ae29af5,

@@ -9,10 +9,10 @@ EditorBuildSettings:
     path: Assets/ARoundEWHA/Scenes/OnBoarding.unity
     guid: 99c55b988c7e0ca4995fa7781d681f9f
   - enabled: 1
-    path: Assets/ARoundEWHA/Scenes/Setting.unity
+    path: Assets/ARoundEWHA/Scenes/Setting1.unity
     guid: 22e617556a6a04c36b82cb559b5fce0f
   - enabled: 1
-    path: Assets/ARoundEWHA/Scenes/Status.unity
+    path: Assets/ARoundEWHA/Scenes/Status1.unity
     guid: 3bcefb3f78ecb4fd4bac9ad84dfd758d
   - enabled: 1
     path: Assets/ARoundEWHA/Scenes/EngToSci1.unity
