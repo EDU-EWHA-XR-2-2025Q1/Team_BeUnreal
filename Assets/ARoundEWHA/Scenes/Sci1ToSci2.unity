@@ -167,7 +167,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MapImage: {fileID: 238887174}
-  zoom: 18
+  zoom: 17
   mapWidth: 400
   mapHeight: 400
 --- !u!1 &195116432

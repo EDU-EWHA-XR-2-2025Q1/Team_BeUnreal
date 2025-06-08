@@ -9,11 +9,17 @@ EditorBuildSettings:
     path: Assets/ARoundEWHA/Scenes/OnBoarding.unity
     guid: 99c55b988c7e0ca4995fa7781d681f9f
   - enabled: 1
-    path: Assets/ARoundEWHA/Scenes/Setting1.unity
-    guid: 22e617556a6a04c36b82cb559b5fce0f
+    path: Assets/ARoundEWHA/Scenes/EccToFront.unity
+    guid: 0b1db833dddbd5947bcc51de8fb98bdd
   - enabled: 1
-    path: Assets/ARoundEWHA/Scenes/Status1.unity
-    guid: 3bcefb3f78ecb4fd4bac9ad84dfd758d
+    path: Assets/ARoundEWHA/Scenes/EccToFront_Item.unity
+    guid: b3509b0c6e176994f8fda5ede91ab1f5
+  - enabled: 1
+    path: Assets/ARoundEWHA/Scenes/EccToPos2.unity
+    guid: 39283f4d7781d8b48a9e3aed5bcb1273
+  - enabled: 1
+    path: Assets/ARoundEWHA/Scenes/EccToPos2_Item.unity
+    guid: 8d7435f2401332f4fb7a5fc92433f720
   - enabled: 1
     path: Assets/ARoundEWHA/Scenes/EngToSci1.unity
     guid: 994545c1bfdeafa4ba21e23b61c5db0b
@@ -21,17 +27,11 @@ EditorBuildSettings:
     path: Assets/ARoundEWHA/Scenes/EngToSci1_Item.unity
     guid: 327892e749cfa794fb685ca98af7d4cb
   - enabled: 1
-    path: Assets/ARoundEWHA/Scenes/Sci1ToSci2.unity
-    guid: d581bffaa751b204fbdc03a255a4e2ca
+    path: Assets/ARoundEWHA/Scenes/FrontToEcc.unity
+    guid: fb68a265b104b8e4d957f1414e15987c
   - enabled: 1
-    path: Assets/ARoundEWHA/Scenes/Sci1ToSci2_Item.unity
-    guid: bf79a14368470e94f8fec94bbd70adc0
-  - enabled: 1
-    path: Assets/ARoundEWHA/Scenes/Sci2ToPos1.unity
-    guid: 870d3dba9d6f74343857ee4a2ef1977f
-  - enabled: 1
-    path: Assets/ARoundEWHA/Scenes/Sci2ToPos1_Item.unity
-    guid: 9ef82b799285a4ab29ce958de4e069f6
+    path: Assets/ARoundEWHA/Scenes/FrontToEcc_Item.unity
+    guid: 2d2c71b16494e394a9b3ce11af7a2ab5
   - enabled: 1
     path: Assets/ARoundEWHA/Scenes/Pos1ToPos2.unity
     guid: b2a6c3e11ac9e9f4db5b98d506e3ae7c
@@ -39,14 +39,17 @@ EditorBuildSettings:
     path: Assets/ARoundEWHA/Scenes/Pos1ToPos2_Item.unity
     guid: 24e373234e73f6645820150003d0bf96
   - enabled: 1
+    path: Assets/ARoundEWHA/Scenes/Pos1ToSci2.unity
+    guid: 55b7f1e3c013f6244803f2ad34d248e3
+  - enabled: 1
+    path: Assets/ARoundEWHA/Scenes/Pos1ToSci2_Item.unity
+    guid: b6b4462ee5498a3419af98bffbbbb18f
+  - enabled: 1
     path: Assets/ARoundEWHA/Scenes/Pos2ToEcc.unity
     guid: 5e06a6a0d030f86409f003fb0695c9f6
   - enabled: 1
     path: Assets/ARoundEWHA/Scenes/Pos2ToEcc_Item.unity
     guid: 591a1df729c565747811b985c3658fc3
-  - enabled: 1
-    path: Assets/ARoundEWHA/Scenes/Sci2ToSci1.unity
-    guid: 128a371ba5f0efa449ed37f6e4c8f8cc
   - enabled: 1
     path: Assets/ARoundEWHA/Scenes/Pos2ToPos1.unity
     guid: fe3f114e6a3f2af46af6039bba46ce46
@@ -60,44 +63,35 @@ EditorBuildSettings:
     path: Assets/ARoundEWHA/Scenes/Sci1ToEng_Item.unity
     guid: 9bf111b8db0555144bac316f0d6562b3
   - enabled: 1
-    path: Assets/ARoundEWHA/Scenes/FrontToEcc.unity
-    guid: fb68a265b104b8e4d957f1414e15987c
+    path: Assets/ARoundEWHA/Scenes/Sci1ToSci2.unity
+    guid: d581bffaa751b204fbdc03a255a4e2ca
   - enabled: 1
-    path: Assets/ARoundEWHA/Scenes/FrontToEcc_Item.unity
-    guid: 2d2c71b16494e394a9b3ce11af7a2ab5
+    path: Assets/ARoundEWHA/Scenes/Sci1ToSci2_Item.unity
+    guid: bf79a14368470e94f8fec94bbd70adc0
   - enabled: 1
-    path: Assets/ARoundEWHA/Scenes/Pos1ToSci2.unity
-    guid: 55b7f1e3c013f6244803f2ad34d248e3
+    path: Assets/ARoundEWHA/Scenes/Sci2ToPos1.unity
+    guid: 870d3dba9d6f74343857ee4a2ef1977f
   - enabled: 1
-    path: Assets/ARoundEWHA/Scenes/Pos1ToSci2_Item.unity
-    guid: b6b4462ee5498a3419af98bffbbbb18f
-  - enabled: 1
-    path: Assets/ARoundEWHA/Scenes/Sci2ToSci1_Item.unity
-    guid: 02260d6f2e989ce459427861d0c84f1c
-  - enabled: 1
-    path: Assets/ARoundEWHA/Scenes/EccToPos2.unity
-    guid: 39283f4d7781d8b48a9e3aed5bcb1273
-  - enabled: 1
-    path: Assets/ARoundEWHA/Scenes/EccToPos2_Item.unity
-    guid: 8d7435f2401332f4fb7a5fc92433f720
-  - enabled: 1
-    path: Assets/ARoundEWHA/Scenes/EccToFront.unity
-    guid: 0b1db833dddbd5947bcc51de8fb98bdd
-  - enabled: 1
-    path: Assets/ARoundEWHA/Scenes/EccToFront_Item.unity
-    guid: b3509b0c6e176994f8fda5ede91ab1f5
-  - enabled: 1
-    path: Assets/ARoundEWHA/Scenes/Sci1ToEng.unity
-    guid: 25c242a34bfd67942bf61c7ddb88fd38
-  - enabled: 1
-    path: Assets/ARoundEWHA/Scenes/Sci1ToEng_Item.unity
-    guid: 9bf111b8db0555144bac316f0d6562b3
+    path: Assets/ARoundEWHA/Scenes/Sci2ToPos1_Item.unity
+    guid: 9ef82b799285a4ab29ce958de4e069f6
   - enabled: 1
     path: Assets/ARoundEWHA/Scenes/Sci2ToSci1.unity
     guid: 128a371ba5f0efa449ed37f6e4c8f8cc
   - enabled: 1
     path: Assets/ARoundEWHA/Scenes/Sci2ToSci1_Item.unity
-    guid: 0dc12389455ac6c4494b079360423a05
+    guid: 02260d6f2e989ce459427861d0c84f1c
+  - enabled: 1
+    path: Assets/ARoundEWHA/Scenes/Setting1.unity
+    guid: 22e617556a6a04c36b82cb559b5fce0f
+  - enabled: 1
+    path: Assets/ARoundEWHA/Scenes/Setting2.unity
+    guid: 7a29da074cb2e2347884b630d23567c1
+  - enabled: 1
+    path: Assets/ARoundEWHA/Scenes/Status1.unity
+    guid: 3bcefb3f78ecb4fd4bac9ad84dfd758d
+  - enabled: 1
+    path: Assets/ARoundEWHA/Scenes/Status2.unity
+    guid: 88e4bf7a839e23e4b9152df8461691b5
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: fb16fccf00eb8cb499fe6ba51e7cd400,
       type: 2}
