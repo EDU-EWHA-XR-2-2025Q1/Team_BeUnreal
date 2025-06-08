@@ -20,12 +20,29 @@ public class GoogleMap : MonoBehaviour
 
     void Awake()
     {
-        LoadAPIKey();
+        //LoadAPIKey();
+        StartCoroutine(LoadAPIKey());
     }
 
-    void LoadAPIKey()
+    IEnumerator LoadAPIKey()
     {
-        string path = Application.dataPath + "/ARoundEWHA/Out/apikey.json";
+        string path = Application.streamingAssetsPath + "/apikey.json";
+
+#if UNITY_ANDROID
+        UnityWebRequest www = UnityWebRequest.Get(path);
+        yield return www.SendWebRequest();
+
+        if (www.result == UnityWebRequest.Result.Success)
+        {
+            string jsonText = www.downloadHandler.text;
+            APIKeyWrapper wrapper = JsonUtility.FromJson<APIKeyWrapper>(jsonText);
+            APIKey = wrapper.GoogleMapAPIKey;
+        }
+        else
+        {
+            Debug.LogError("Android에서 API 키 로딩 실패: " + www.error);
+        }
+#else
         if (System.IO.File.Exists(path))
         {
             string jsonText = System.IO.File.ReadAllText(path);
@@ -34,9 +51,12 @@ public class GoogleMap : MonoBehaviour
         }
         else
         {
-            Debug.LogError("API 키 파일을 찾을 수 없습니다: " + path);
+            Debug.LogError("에디터/PC에서 API 키 파일 없음: " + path);
         }
+#endif
     }
+
+
 
     [System.Serializable]
     class APIKeyWrapper
@@ -44,7 +64,7 @@ public class GoogleMap : MonoBehaviour
         public string GoogleMapAPIKey;
     }
 
-    //soo: APIKey 불러오기 추가: 끝
+    //soo: APIKey 불러오기 추가: 끝 
 
 
     // Seoul City Hall: 37.566827, 126.978113 
